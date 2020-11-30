@@ -1,0 +1,88 @@
+body {
+background: #b53dec;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #a954f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f8f8f8, #cb2dda); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+}
+
+.navbar {
+    background:black;
+    opacity: 0.75;
+
+}
+
+a {
+    color: #ffffff;
+
+    text-shadow: #ffffff;
+
+
+}
+.nav-item{
+    font-size: 22px;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+
+}
+
+a:hover {
+    color: #f0f0f0;
+    font-weight: 20px;
+  }
+
+.card{
+    background: #ffffff;
+    opacity: 0.80;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: 0.5px solid black;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.btn-st{
+    background: #e1f4f3;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    border-radius: 5%;
+}
+
+.btn-st:hover{
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+.pred-t{
+    background: black;
+    height: 50px;
+    opacity: 0.80;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
+.pred-t:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.creds{
+   height: 40px;
+    width: 500px;
+    background: black;
+    opacity: 0.80;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
+.creds:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
